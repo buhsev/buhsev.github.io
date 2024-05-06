@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "EB Garamond", serif;
+    
+    
+}
+
+
+
+nav .social img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+nav a{
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav{
+    /* background-color: rgb(64, 152, 230); */
+    display: grid;
+    grid-template-columns: 1fr 5fr 2fr;
+    gap: 20px;
+    height: 60px;
+    padding: 20px 50px;
+    border-bottom: 1px solid gray; 
+    
+}
+
+
+nav .logo{
+    font-size: 30pt;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: blue;
+}
+
+nav .link{
+    font-size: 16pt;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav .link img{
+    width: 50px;
+    height: 50px;
+}
+
+nav a:hover{
+    font-size: 16pt;
+    color: brown;
+}
+
+nav .social{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15pt;
+}
+
+.about{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    border-bottom: 1px solid gray;
+      
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 50px;
+}
+
+.about h1{
+    font-size: 35pt;
+    margin-bottom: 40px;
+}
+
+.about img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.box1 ul{
+    font-size: 16pt;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.box1 ul span{
+    color: red;
+    font-weight: bold;
+}
+
+
+.box1 button{
+    border: 1px solid rgb(100, 100, 100);
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-left: 600px;
+    
+}
+
+.box1 button a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    
+} 
+
+.box1 button:hover{
+    font-size: 12pt;
+    background-color: rgb(255, 255, 255);
+    color: aliceblue;
+}
+
+.article{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 40px;
+    border-bottom: 1px solid gray;
+}
+
+.article img{
+    width: 100%;
+    height: 100%;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+.article h2{
+    font-size: 24pt;
+    margin-bottom: 30px;
+    }
+
+.article p{
+    font-size: 14pt;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.article button{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+    border: 1px solid gray;
+    color: rgb(255, 254, 254);
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-left: 500px;
+    
+}
+
+.article button a{
+    font-weight: bold;
+    text-decoration: none;
+    color: blue;
+}
+
+.article button:hover{
+    font-size: 10pt;
+    background-color: rgb(88, 88, 85);
+    color: aliceblue;
+}
+
+.article2{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 40px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 50px;
+}
+
+.article2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.article2 h2{
+    font-size: 24pt;
+    margin-bottom: 30px;
+}
+
+.article2 ul{
+    font-size: 14pt;
+    margin-bottom: 20px;
+}
+
+.article2 button{
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid gray;
+    color: gray;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-left: 400px;
+    
+}
+
+.article2 button a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+.article2 button:hover{
+    font-size: 10pt;
+    background-color: rgb(88, 88, 85);
+    color: aliceblue;
+}
+
+
+
+hr{
+    margin-bottom: 30px;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 90px;
+    padding: 10px;
+    
+}
+
+.social-media{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 20px;
+}
+
+footer p{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
